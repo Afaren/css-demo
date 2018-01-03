@@ -174,26 +174,26 @@
 .nav-bar {
   background-color: rgb(241, 1, 128);
   height: 40px;
-}
 
-.nav-bar .label {
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  color: white;
-  width: 60px;
-  text-align: center;
-  text-decoration: none;
-}
+  .label {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
 
-.nav-bar .label.active {
-  background-color: #bd1067;
-}
+  .label.active {
+    background-color: #bd1067;
+  }
 
-.nav-bar .label:hover {
-  background-color: #db0a76;
-}
+  .label:hover {
+    background-color: #db0a76;
+  }
 
-.nav-bar .label.right {
-  float: right;
+  .label.right {
+    float: right;
+  }
 }
