@@ -128,36 +128,37 @@
 
 .more {
   position: relative;
-}
 
-.more:hover .more-body {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
+  &:hover .more-body {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
 
-.more .more-body {
-  box-sizing: border-box;
-  padding: 22px 10px 22px 26px;
-  position: absolute;
-  bottom: -260px;
-  display: none;
-  width: 594px;
-  height: 260px;
-  right: 0;
-  background-color: white;
-  border-radius: 5px;
-}
+  .more-body {
+    box-sizing: border-box;
+    padding: 22px 10px 22px 26px;
+    position: absolute;
+    bottom: -260px;
+    display: none;
+    width: 594px;
+    height: 260px;
+    right: 0;
+    background-color: white;
+    border-radius: 5px;
 
-.more-body .category {
-  float: left;
-  display: inline-block;
-  margin-right: 16px;
-  width: 170px;
-  height: 96px;
-  line-height: 96px;
-  background-color: antiquewhite;
+    .category {
+      float: left;
+      display: inline-block;
+      margin-right: 16px;
+      width: 170px;
+      height: 96px;
+      line-height: 96px;
+      background-color: antiquewhite;
+    }
+
+  }
 }
 
 .side-bar {
